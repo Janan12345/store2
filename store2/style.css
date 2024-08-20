@@ -1,0 +1,168 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+#link1:active , #link1:hover ,#link2:hover, #link3:hover {
+    color:rgb(160, 255, 27);
+}
+
+.pr-ct-ct {
+    position: absolute;
+    top:31px;
+    left:10px;
+}
+
+.class {
+    display:inline-block;
+    margin:10px 10px;
+    text-align: center;
+    color:#1098fd;
+    text-align: center;
+}
+.logo-center {
+    text-align:center;
+    margin-top:15px;
+}
+
+#und {
+    text-decoration:none;
+}
+
+.search  {
+  position:absolute;
+  top:34px;
+  right:25px;
+}
+
+#search {
+    color:blue;
+    width:200px;
+    height:25px;
+    border:solid gray ;
+    border-radius:20px;
+    margin:0px auto;
+}
+
+.logo {
+    width:100px;
+    border-radius:85px;
+    margin-bottom: -42.5px;
+    margin-left:10px;
+    display:inline-block;
+}
+
+.heading {
+    font-size:16px;
+    margin-left:10px;
+    background-color:rgb(255, 255, 255);
+    color:black;
+    margin: 7px;
+    text-transform:uppercase;
+    font-weight:bolder;
+}
+
+#link {
+    text-decoration:none;
+}
+
+#link:active {
+    color:rgb(0, 0, 255);
+    font-size:22px;
+}
+
+#link:hover {
+    color:rgb(0, 64, 239);
+}
+
+.Products {
+    font-size:20px;
+    color:black;
+}
+
+.prod-opti {
+    text-align:center;
+}
+
+.Products {
+    display:inline-block;
+    position: relative;
+}
+
+.options {
+    width:175px;
+    height:20px;
+    border:solid gray;
+}
+
+.pr1 { 
+    width:200px;
+    position: absolute;
+    top:240px;
+    left:30px;
+    border:solid rgb(153, 255, 0);
+   
+}
+
+.pr1-name {
+    position:absolute;
+    top:415px;
+    left:28px;
+    background-color: chartreuse;
+    border:solid white;
+    border-radius:40px;
+    padding:5px 30px;
+    text-transform:uppercase;
+}
+
+.pr1-name:hover  {
+    color:rgb(0, 0, 255);
+    background-color:greenyellow;
+}
+
+.button-adc {
+    position:absolute;
+    top:450px;
+    left:30px;
+    color:white;
+    background-color: black;
+    padding:8px 12px;
+    border:solid black;
+    border-radius:40px;
+    cursor: pointer;
+    text-transform:uppercase;
+}
+
+.button-adc:hover {
+    color:black;
+    background-color: white;
+}
+
+.buy-now {
+    position:absolute;
+    top: 450px;
+    left:150px;
+    color:white;
+    background-color: black;
+    padding:8px 12px;
+    border:solid black;
+    border-radius:40px;
+    cursor: pointer;
+    text-transform:uppercase;
+}
+.buy-now:hover {
+    color:black;
+    background-color: white;
+}
+
+.sale {
+    position:absolute;
+    top:235px;
+    left:20px;
+    background-color:red;
+    color:honeydew;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:10px;
+}
